@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# 结果
+results/*
+!results/.gitkeep
+!results/figures/
+!results/figures/.gitkeep
+
+# 大数据不入库
+data/raw/*
+!data/raw/.gitkeep
+
+# 编辑器
+.vscode/
+.idea/
